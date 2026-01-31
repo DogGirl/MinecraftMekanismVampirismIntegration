@@ -1,0 +1,97 @@
+---- Minecraft Crash Report ----
+// I let you down. Sorry :(
+
+Time: 2025-09-03 17:19:26
+Description: Exception in server tick loop
+
+java.lang.ClassCastException: class net.minecraft.server.level.ServerPlayer cannot be cast to class de.teamlapen.vampirism.api.entity.vampire.IVampire (net.minecraft.server.level.ServerPlayer is in module minecraft@1.20.1 of loader 'TRANSFORMER' @7d979d34; de.teamlapen.vampirism.api.entity.vampire.IVampire is in module vampirism@1.10.13 of loader 'TRANSFORMER' @7d979d34)
+	at com.msdoggirl.mekvamp.AutofeederLogic.tick(AutofeederLogic.java:30) ~[%23196!/:?] {re:classloading}
+	at com.msdoggirl.mekvamp.MekVamp.onServerTick(MekVamp.java:63) ~[%23196!/:?] {re:classloading}
+	at com.msdoggirl.mekvamp.__MekVamp_onServerTick_ServerTickEvent.invoke(.dynamic) ~[%23196!/:?] {re:classloading,pl:eventbus:B}
+	at net.minecraftforge.eventbus.ASMEventHandler.invoke(ASMEventHandler.java:73) ~[eventbus-6.0.5.jar%23114!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:315) ~[eventbus-6.0.5.jar%23114!/:?] {}
+	at net.minecraftforge.eventbus.EventBus.post(EventBus.java:296) ~[eventbus-6.0.5.jar%23114!/:?] {}
+	at net.minecraftforge.event.ForgeEventFactory.onPostServerTick(ForgeEventFactory.java:975) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23190%23197!/:?] {re:classloading}
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:878) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.client.server.IntegratedServer.tickServer(IntegratedServer.java:95) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:runtimedistcleaner:A}
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:679) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:251) ~[forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/:?] {re:classloading,pl:accesstransformer:B}
+	at java.lang.Thread.run(Thread.java:840) ~[?:?] {}
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.20.1
+	Minecraft Version ID: 1.20.1
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 17.0.16, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 1681255584 bytes (1603 MiB) / 3430940672 bytes (3272 MiB) up to 8531214336 bytes (8136 MiB)
+	CPUs: 20
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Core(TM) i5-14500
+	Identifier: Intel64 Family 6 Model 191 Stepping 2
+	Microarchitecture: unknown
+	Frequency (GHz): 2.61
+	Number of physical packages: 1
+	Number of physical CPUs: 14
+	Number of logical CPUs: 20
+	Graphics card #0 name: Intel(R) UHD Graphics 770
+	Graphics card #0 vendor: Intel Corporation (0x8086)
+	Graphics card #0 VRAM (MB): 2048.00
+	Graphics card #0 deviceId: 0x4680
+	Graphics card #0 versionInfo: DriverVersion=32.0.101.6737
+	Graphics card #1 name: NVIDIA GeForce RTX 2060
+	Graphics card #1 vendor: NVIDIA (0x10de)
+	Graphics card #1 VRAM (MB): 4095.00
+	Graphics card #1 deviceId: 0x1e89
+	Graphics card #1 versionInfo: DriverVersion=32.0.15.6094
+	Memory slot #0 capacity (MB): 16384.00
+	Memory slot #0 clockSpeed (GHz): 4.00
+	Memory slot #0 type: Unknown
+	Memory slot #1 capacity (MB): 16384.00
+	Memory slot #1 clockSpeed (GHz): 4.00
+	Memory slot #1 type: Unknown
+	Virtual memory max (MB): 59159.16
+	Virtual memory used (MB): 22503.50
+	Swap memory total (MB): 26624.00
+	Swap memory used (MB): 76.59
+	JVM Flags: 1 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump
+	Server Running: true
+	Player Count: 1 / 8; [ServerPlayer['Dev'/171, l='ServerLevel[New World]', x=-59.25, y=64.00, z=10.38]]
+	Data Packs: vanilla, mod:mekanism, mod:forge, mod:vampirism, mod:mekvamp
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'forge'; Server brand changed to 'forge'
+	Launched Version: MOD_DEV
+	ModLauncher: 10.0.9+10.0.9+main.dcd20f30
+	ModLauncher launch target: forgeclientuserdev
+	ModLauncher naming: mcp
+	ModLauncher services: 
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
+		minecraft@1.0
+		lowcodefml@null
+		javafml@null
+	Mod List: 
+		forge-1.20.1-47.4.0_mapped_parchment_2023.09.03-1.|Minecraft                     |minecraft                     |1.20.1              |DONE      |Manifest: a1:d4:5e:04:4f:d3:d6:e0:7b:37:97:cf:77:b0:de:ad:4a:47:ce:8c:96:49:5f:0a:cf:8c:ae:b2:6d:4b:8a:3f
+		Mekanism-1.20.1-10.4.16.80_mapped_parchment_2023.0|Mekanism                      |mekanism                      |10.4.16             |DONE      |Manifest: NOSIGNATURE
+		                                                  |Forge                         |forge                         |47.4.0              |DONE      |Manifest: NOSIGNATURE
+		Vampirism-1.20.1-1.10.13_mapped_parchment_2023.09.|Vampirism                     |vampirism                     |1.10.13             |DONE      |Manifest: NOSIGNATURE
+		main                                              |Mekanism Vampirism Integration|mekvamp                       |1.0                 |DONE      |Manifest: NOSIGNATURE
+	Crash Report UUID: 780219bd-e9d5-4bce-975a-ad47508e11fd
+	FML: 47.4
+	Forge: net.minecraftforge:47.4.0

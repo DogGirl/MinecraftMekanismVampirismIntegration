@@ -1,0 +1,317 @@
+{
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2025-09-03 12:53:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-03 12:53:25 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-09-03 17:02:02 +0200",
+      "minecraft:sparse_jungle": "2025-09-03 12:53:39 +0200"
+    },
+    "done": false
+  },
+  "mekanism:modification_station": {
+    "criteria": {
+      "modification_station": "2025-09-03 12:55:11 +0200"
+    },
+    "done": true
+  },
+  "vampirism:vampire/blood_cult": {
+    "criteria": {
+      "main": "2025-09-03 12:55:45 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/freeze_kill": {
+    "criteria": {
+      "main": "2025-09-03 12:55:45 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/first_blood": {
+    "criteria": {
+      "main": "2025-09-03 12:55:45 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/extra_storage": {
+    "criteria": {
+      "blood_container": "2025-09-03 14:36:53 +0200",
+      "main": "2025-09-03 12:55:45 +0200"
+    },
+    "done": true
+  },
+  "vampirism:vampire/yuck": {
+    "criteria": {
+      "main": "2025-09-03 12:55:45 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/sniped": {
+    "criteria": {
+      "main": "2025-09-03 12:55:45 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/kill_mother": {
+    "criteria": {
+      "main": "2025-09-03 12:55:45 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/become_vampire": {
+    "criteria": {
+      "main": "2025-09-03 12:55:45 +0200"
+    },
+    "done": true
+  },
+  "vampirism:vampire/resurrect": {
+    "criteria": {
+      "main": "2025-09-03 12:55:45 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/bat": {
+    "criteria": {
+      "main": "2025-09-03 12:55:45 +0200"
+    },
+    "done": false
+  },
+  "vampirism:recipes/decorations/vampire/altar_inspiration": {
+    "criteria": {
+      "has_blood_container": "2025-09-03 14:36:53 +0200"
+    },
+    "done": true
+  },
+  "mekanism:configurator": {
+    "criteria": {
+      "configurator": "2025-09-03 14:49:46 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2025-09-03 14:49:51 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/misc/vampire/blood_bottle_to_glass": {
+    "criteria": {
+      "has_blood_bottle": "2025-09-03 20:16:59 +0200"
+    },
+    "done": true
+  },
+  "minecraft:story/root": {
+    "criteria": {
+      "crafting_table": "2025-09-04 11:38:44 +0200"
+    },
+    "done": true
+  },
+  "mekanism:polonium": {
+    "criteria": {
+      "pellet_polonium": "2025-09-04 11:38:57 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/misc/general/injection_1": {
+    "criteria": {
+      "has_injection": "2025-09-04 11:39:03 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/misc/general/injection_2": {
+    "criteria": {
+      "has_injection": "2025-09-04 11:39:03 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/heart_striker_normal": {
+    "criteria": {
+      "has_ingot": "2025-09-04 11:39:34 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/heart_seeker_normal": {
+    "criteria": {
+      "has_ingot": "2025-09-04 11:39:34 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/misc/vampire/garlic_finder": {
+    "criteria": {
+      "has_bloodiron": "2025-09-04 11:39:34 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/blood_infused_iron_block": {
+    "criteria": {
+      "has_blood_infused_iron_ingot": "2025-09-04 11:39:34 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/fog_diffuser": {
+    "criteria": {
+      "has_mother_core": "2025-09-04 11:39:59 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/misc/vampire_beacon": {
+    "criteria": {
+      "has_mother_core": "2025-09-04 11:39:59 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/alchemy_table/alchemy_table/vampire_blood_oil": {
+    "criteria": {
+      "has_wheat_seeds": "2025-09-04 11:40:07 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/vampire_cloak_white_black": {
+    "criteria": {
+      "has_pure_blood": "2025-09-04 11:40:10 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/vampire_cloak_black_white": {
+    "criteria": {
+      "has_pure_blood": "2025-09-04 11:40:10 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/misc/hunter/pure_blood3": {
+    "criteria": {
+      "has_pure_blood": "2025-09-04 11:40:10 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/vampire_cloak_black_red": {
+    "criteria": {
+      "has_pure_blood": "2025-09-04 11:40:10 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/vampire_cloak_black_blue": {
+    "criteria": {
+      "has_pure_blood": "2025-09-04 11:40:10 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/combat/vampire/vampire_cloak_red_black": {
+    "criteria": {
+      "has_pure_blood": "2025-09-04 11:40:10 +0200"
+    },
+    "done": true
+  },
+  "mekanism:sna": {
+    "criteria": {
+      "solar_neutron_activator": "2025-09-04 11:46:17 +0200"
+    },
+    "done": true
+  },
+  "mekanism:materials": {
+    "criteria": {
+      "material": "2025-09-04 11:47:01 +0200"
+    },
+    "done": true
+  },
+  "mekanism:fluid_tank": {
+    "criteria": {
+      "basic_fluid_tank": "2025-09-06 12:14:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/composter": {
+    "criteria": {
+      "has_wood_slab": "2025-09-09 09:38:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/barrel": {
+    "criteria": {
+      "has_wood_slab": "2025-09-09 09:38:08 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:spider": "2025-09-09 10:13:05 +0200"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2025-09-09 10:13:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:spider": "2025-09-09 10:13:05 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/bow": {
+    "criteria": {
+      "has_string": "2025-09-09 10:13:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/tools/fishing_rod": {
+    "criteria": {
+      "has_string": "2025-09-09 10:13:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/tripwire_hook": {
+    "criteria": {
+      "has_string": "2025-09-09 10:13:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/candle": {
+    "criteria": {
+      "has_string": "2025-09-09 10:13:07 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/candelabra": {
+    "criteria": {
+      "has_string": "2025-09-09 10:13:07 +0200"
+    },
+    "done": true
+  },
+  "vampirism:recipes/decorations/vampire/chandelier": {
+    "criteria": {
+      "has_string": "2025-09-09 10:13:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/white_wool_from_string": {
+    "criteria": {
+      "has_string": "2025-09-09 10:13:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/crossbow": {
+    "criteria": {
+      "has_string": "2025-09-09 10:13:07 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/loom": {
+    "criteria": {
+      "has_string": "2025-09-09 10:13:07 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

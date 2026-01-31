@@ -1,0 +1,18 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:mekvamp:module_sunscreen_unit",
+    "item:mekvamp:module_auto_feeding_unit"
+  ],
+  "craft_history": [
+    "mekvamp:module_auto_feeding_unit",
+    "mekvamp:module_sunscreen_unit"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

@@ -1,0 +1,93 @@
+{
+  "mekanism:root": {
+    "criteria": {
+      "automatic": "2025-09-03 11:47:13 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-09-03 11:47:14 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2025-09-03 11:47:15 +0200"
+    },
+    "done": false
+  },
+  "mekanism:modification_station": {
+    "criteria": {
+      "modification_station": "2025-09-03 11:55:26 +0200"
+    },
+    "done": true
+  },
+  "vampirism:vampire/blood_cult": {
+    "criteria": {
+      "main": "2025-09-03 12:10:08 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/freeze_kill": {
+    "criteria": {
+      "main": "2025-09-03 12:10:08 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/first_blood": {
+    "criteria": {
+      "main": "2025-09-03 12:10:08 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/extra_storage": {
+    "criteria": {
+      "main": "2025-09-03 12:10:08 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/yuck": {
+    "criteria": {
+      "main": "2025-09-03 12:10:08 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/sniped": {
+    "criteria": {
+      "main": "2025-09-03 12:10:08 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/kill_mother": {
+    "criteria": {
+      "main": "2025-09-03 12:10:08 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/become_vampire": {
+    "criteria": {
+      "main": "2025-09-03 12:10:08 +0200"
+    },
+    "done": true
+  },
+  "vampirism:vampire/resurrect": {
+    "criteria": {
+      "main": "2025-09-03 12:10:08 +0200"
+    },
+    "done": false
+  },
+  "vampirism:vampire/bat": {
+    "criteria": {
+      "main": "2025-09-03 12:10:08 +0200"
+    },
+    "done": false
+  },
+  "mekanism:configurator": {
+    "criteria": {
+      "configurator": "2025-09-03 17:35:48 +0200"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}
